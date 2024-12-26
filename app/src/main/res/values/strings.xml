@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Adminapp</string>
+
+    <string-array name="tour_packages">
+        <item>Dakshina Kannada Tour - ₹10,500</item>
+        <item>Badami-Bijapur Tour - ₹12,000</item>
+        <item>Dandeli Tour - ₹6,000</item>
+        <item>Jog Falls Tour - ₹2,600</item>
+        <item>Chikkamangaluru Tour - ₹9,000</item>
+        <item>Mysore-Coorg Tour - ₹9,000</item>
+        <item>Shirdi Tour - ₹20,000</item>
+        <item>Munnar - Alleppey Tour - ₹14,000</item>
+        <item>Tamilnadu Tour - ₹21,600</item>
+        <item>Goa Dudhsagar Tour - ₹12,500</item>
+        <item>Mantralaya Srishailam Tour - ₹12,500</item>
+    </string-array>
+
+    <string-array name="tour_dates">
+        <item>Jan 7</item>
+        <item>Feb 21</item>
+        <item>Mar 4</item>
+        <item>Apr 18</item>
+        <item>May 11</item>
+        <item>Jun 25</item>
+        <item>Jul 8</item>
+        <item>Aug 22</item>
+        <item>Sep 6</item>
+        <item>Oct 20</item>
+        <item>Nov 3</item>
+        <item>Dec 24</item>
+    </string-array>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/tourPackageSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <Spinner
+            android:id="@+id/tourDateSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/adultsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Adults"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/childrenWithBedInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Children with Bed"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/childrenWithoutBedInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Children without Bed"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/infantsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Infants"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/totalCostText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Cost: ₹0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Guest Name Inputs -->
+        <EditText
+            android:id="@+id/guestName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Guest Name 1"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/guestName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Guest Name 2"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/guestName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Guest Name 3"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/guestName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Guest Name 4"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/guestName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Guest Name 5"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Total Cost"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Data" />
+
+    </LinearLayout>
+</ScrollView>
